@@ -1,0 +1,42 @@
+*ft-help_fold.txt*	Folding setting for help.
+
+Version: 1.0
+Author : thinca <thinca+vim@gmail.com>
+License: zlib License
+
+==============================================================================
+CONTENTS					*ft-help_fold-contents*
+
+INTRODUCTION			|ft-help_fold-introduction|
+CHANGELOG			|ft-help_fold-changelog|
+
+
+
+==============================================================================
+INTRODUCTION					*ft-help_fold-introduction*
+
+*ft-help_fold* is a Vim plugin to provide the setting for folding of vim help.
+
+This plugin folds
+- the area that following by === as level 1
+- the area that following by --- as level 2
+- helptag(*word*) and following as level 3
+
+
+Requirements:
+- Vim 7.3 or later
+
+Latest version:
+https://github.com/thinca/vim-ft-help_fold
+
+
+
+==============================================================================
+CHANGELOG					*ft-help_fold-changelog*
+
+1.0	2013-04-21
+	- Initial version.
+
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
